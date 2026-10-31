@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hi-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>vageshwariJewellers – Bopal, Ahmedabad</title>
+<meta name="description" content="Bopal, Ahmedabad mein 20+ saal se shuddh gold & silver jewellery, roj ke taaza market bhav par. Custom designs bhi.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Hind:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#2a0a12;--bg2:#3a1019;--gold:#d9ab45;--hi:#f1d68a;--ink:#f6ead2;--mute:#c9b48e;--line:rgba(217,171,69,.35);
+--serif:"Cormorant Garamond",Georgia,serif;--sans:"Hind",system-ui,sans-serif;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:calc(60px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--sans)}
+a{color:inherit}:focus-visible{outline:2px solid var(--hi);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1;margin:0}
+h2{font-size:clamp(32px,6vw,48px);color:var(--hi)}
+section{padding:72px 0;border-top:1px solid var(--line)}
+#splash{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,#4a1421,#1d060c 70%);transition:opacity .8s,visibility .8s;cursor:pointer}
+#splash.done{opacity:0;visibility:hidden}
+.splash-in{text-align:center;padding:24px}
+.logo{width:150px;height:150px;display:block;margin:0 auto 18px}
+.logo circle,.logo path{fill:none;stroke:var(--gold);stroke-width:2;stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.8s .1s ease forwards}
+.logo .v{stroke:var(--hi);stroke-width:3}
+@keyframes draw{to{stroke-dashoffset:0}}
+.sn{font:600 clamp(30px,8vw,46px)/1 var(--serif);color:var(--hi);opacity:0;animation:in .9s 1.1s forwards}
+.ss{color:var(--mute);margin-top:8px;opacity:0;animation:in .9s 1.5s forwards}
+@keyframes in{to{opacity:1}}
+body.lock{overflow:hidden}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(42,10,18,.94);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:58px}
+.brand{font:600 24px var(--serif);color:var(--hi);text-decoration:none}
+nav{display:flex;gap:20px;font-size:15px}nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--hi)}
+@media(max-width:620px){nav{display:none}}
+.hero{padding:84px 0 92px;border:0;background:radial-gradient(ellipse at 85% 10%,rgba(217,171,69,.22),transparent 55%),repeating-radial-gradient(circle at 85% 30%,transparent 0 22px,rgba(217,171,69,.07) 22px 23px)}
+.hero h1{font-size:clamp(46px,10vw,92px);max-width:11ch;color:var(--hi)}
+.lead{font-size:clamp(18px,3vw,22px);max-width:34em;margin:22px 0 30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:13px 24px;border-radius:2px;font-weight:600;text-decoration:none;border:1px solid var(--gold)}
+.fill{background:var(--gold);color:#2a0a12}.fill:hover{background:var(--hi)}.ghost:hover{background:rgba(217,171,69,.12)}
+.hero small{display:block;margin-top:22px;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin:36px 1px 0 0;border:1px solid var(--line)}
+.item{padding:30px 26px;border:1px solid var(--line);margin:-1px 0 0 -1px;background:linear-gradient(160deg,var(--bg2),var(--bg))}
+.item h3{font-size:28px;color:var(--hi)}.item p{margin:8px 0 0;color:var(--mute);font-size:16px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px;align-items:start}
+.panel{border:1px solid var(--gold);padding:32px;background:var(--bg2)}
+.panel h3{font-size:30px;color:var(--hi);margin-bottom:10px}.panel p{margin:0 0 18px}
+.facts{list-style:none;margin:24px 0 0;padding:0}.facts li{padding:14px 0;border-bottom:1px solid var(--line)}
+.facts b{display:block;font:600 22px var(--serif);color:var(--hi)}.facts span{color:var(--mute);font-size:16px}
+dl{margin:28px 0 0;display:grid;grid-template-columns:auto 1fr;gap:12px 24px}dt{color:var(--gold);font-weight:600}dd{margin:0}
+footer{padding:28px 0 40px;border-top:1px solid var(--line);color:var(--mute);font-size:14px;text-align:center}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;background:var(--gold);color:#2a0a12;font-weight:600;padding:12px 18px;border-radius:30px;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,.4)}
+@media(prefers-reduced-motion:reduce){.logo circle,.logo path{animation:none;stroke-dashoffset:0}.sn,.ss{animation:none;opacity:1}#splash{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body class="lock">
+<div id="splash" aria-label="vageshwariJewellers">
+ <div class="splash-in">
+  <svg class="logo" viewBox="0 0 150 150" aria-hidden="true"><circle cx="75" cy="75" r="68"/><circle cx="75" cy="75" r="58"/><path class="v" d="M44 52 L75 108 L106 52"/><path d="M58 40 L75 28 L92 40 L75 52 Z"/></svg>
+  <div class="sn">vageshwariJewellers</div><div class="ss">Bopal, Ahmedabad</div>
+ </div>
+</div>
+<header><div class="wrap bar"><a class="brand" href="#top">vageshwariJewellers</a>
+<nav aria-label="Main"><a href="#collection">Collection</a><a href="#bhav">Aaj ka bhav</a><a href="#custom">Custom design</a><a href="#visit">Showroom</a></nav></div></header>
+<main id="top">
+<section class="hero"><div class="wrap">
+ <h1>Shuddhata aur vishwas ke saath</h1>
+ <p class="lead">Sundar aur aakarshak jewellery designs. Bopal ka jewellery showroom, 20+ saal ke bharose ke saath. Gold aur silver, sab roj ke taaza market bhav par.</p>
+ <div class="btns"><a class="btn fill" href="https://wa.me/919429029691?text=Namaste%2C%20mujhe%20aaj%20ka%20bhav%20aur%20designs%20janne%20hain." target="_blank" rel="noopener">WhatsApp par puchhein</a><a class="btn ghost" href="tel:+919429029691">Call karein: 94290 29691</a></div>
+ <small>Somwar se Shanivar, subah 10:30 se raat 8:30 baje tak</small>
+</div></section>
+<section id="collection"><div class="wrap">
+ <h2>Hamara collection</h2>
+ <p style="color:var(--mute);max-width:34em">Traditional aur modern, dono tarah ke designs. Gold aur silver, sab daily market rate ke anusar.</p>
+ <div class="grid">
+  <article class="item"><h3>Necklaces</h3><p>Gold aur silver necklaces, rozmarra se lekar khaas mauke tak.</p></article>
+  <article class="item"><h3>Designer haar sets</h3><p>Shaadi aur tyohar ke liye bhari, shaandar haar sets.</p></article>
+  <article class="item"><h3>Diamond &amp; gold rings</h3><p>Sagai, shaadi ya gift ke liye diamond aur gold rings.</p></article>
+  <article class="item"><h3>Earrings aur butti</h3><p>Halke butti se lekar bhari jhumke tak ke designs.</p></article>
+  <article class="item"><h3>Gold chains</h3><p>Har wazan aur style ki gold chains. Silver aur gold, sab jewellery ek jagah.</p></article>
+ </div>
+</div></section>
+<section id="bhav"><div class="wrap two">
+ <div><h2>Roj ke taaza bhav par</h2>
+ <ul class="facts">
+  <li><b>Shuddh aur vishwaspatra</b><span>Har jewellery shuddhata ke bharose ke saath milti hai.</span></li>
+  <li><b>Pricing bullion rate ke anusar</b><span>Sone-chandi ka bhav roj badalta hai, aur aapko usi din ka taaza bhav milta hai.</span></li>
+  <li><b>20+ saal ka anubhav</b><span>Bopal ke parivaron ka apna jewellery showroom.</span></li>
+ </ul></div>
+ <div class="panel"><h3>Aaj ka bhav jaanein</h3><p>Bhav din mein badalta rehta hai. Sahi, taaza rate ke liye seedha puchhein.</p>
+ <a class="btn fill" href="https://wa.me/919429029691?text=Namaste%2C%20aaj%20ka%20gold%20aur%20silver%20ka%20bhav%20bataiye." target="_blank" rel="noopener">WhatsApp par bhav puchhein</a></div>
+</div></section>
+<section id="custom"><div class="wrap two">
+ <div><h2>Apna design, apni jewellery</h2><p style="max-width:32em;margin-top:18px">Koi design dimaag mein hai ya photo mili hai? Hum customized jewellery banate hain. Aap design batayein, hum use sone-chandi mein taiyaar karenge.</p></div>
+ <div class="panel"><h3>Custom order</h3><p>Design ki photo ya vichar WhatsApp par bhejein, ya showroom aakar baat karein.</p>
+ <a class="btn fill" href="https://wa.me/919429029691?text=Namaste%2C%20mujhe%20custom%20jewellery%20banwani%20hai." target="_blank" rel="noopener">Design bhejein</a></div>
+</div></section>
+<section id="visit"><div class="wrap">
+ <h2>Showroom par aayein</h2>
+ <dl>
+  <dt>Pata</dt><dd>Dukaan 6, J B Park Shopping Centre, Bopal, Ahmedabad, Gujarat</dd>
+  <dt>Samay</dt><dd>Somwar se Shanivar, 10:30 AM se 8:30 PM<br>Ravivar: aadhha din ya band, aane se pehle call karein</dd>
+  <dt>Phone</dt><dd><a href="tel:+919429029691">94290 29691</a> (call aur WhatsApp)</dd>
+  <dt>Instagram</dt><dd>vagheshwary Jewellers Bopal</dd>
+ </dl>
+ <div class="btns" style="margin-top:30px"><a class="btn fill" href="https://maps.app.goo.gl/wBKfssgHgxL9QZFo8" target="_blank" rel="noopener">Google Maps par dekhein</a><a class="btn ghost" href="tel:+919429029691">Call karein</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">© vageshwariJewellers, Bopal, Ahmedabad. Sabhi bhav daily market rate ke anusar.</div></footer>
+<a class="fab" href="https://wa.me/919429029691" target="_blank" rel="noopener">WhatsApp</a>
+<script>
+(function(){var s=document.getElementById('splash'),c=false;
+function close(){if(c)return;c=true;s.classList.add('done');document.body.classList.remove('lock');setTimeout(function(){s.style.display='none'},900)}
+var r=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+setTimeout(close,r?800:3000);s.addEventListener('click',close);
+document.addEventListener('keydown',function(e){if(e.key==='Escape'||e.key==='Enter')close()})})();
+</script>
+</body>
+</html>
